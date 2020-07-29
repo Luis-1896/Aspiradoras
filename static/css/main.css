@@ -1,0 +1,590 @@
+* {
+	font: "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+body, p, h1, h2, h3 {
+	font: "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #CCC;
+	transition: 0.2s ease-in-out;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+h2 {
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+h3 {
+	font-weight: 200;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+footer {
+	background: black;
+	font: #fff;
+}
+
+p {
+	font-size: 15px;
+}
+
+#cert {
+	margin-top: 30px;
+}
+
+#contactSection {
+	margin-top: 30px;
+}
+
+#contactTextArea {
+	resize: none;
+	height: 100px;
+}
+
+#contact-banner {
+	margin-top: 20px;
+	height: 200px;
+	color: white;
+	background: #930205;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #930205 0%, #c9000a 63%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #930205 0%, #c9000a 63%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #930205 0%, #c9000a 63%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#930205', endColorstr='#c9000a', GradientType=0);
+}
+
+#directorio-enlace{
+	color: #b4b5bb;
+	text-align: right;
+	padding: 12px 0 0 0;
+}
+
+#directorio-enlace1{
+	color: #b4b5bb;
+	text-align: left;
+	padding: 12px 0 0 0;
+}
+
+#envelope {
+	color: #505050;
+	font-size: 35px;
+	margin-top: 30px;
+}
+
+#envelope-container {
+	background: white;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	transition: 0.4s ease-in-out;
+}
+
+#envelope-container:hover {
+	transform: scale(1.3);
+}
+
+#header {
+	height: 150px;
+	width: 100%;
+	position: relative;
+	z-index: 1001;
+	background: #000;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin: 0;
+}
+
+#heading {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 1%;
+}
+
+#header-contact {
+	background: #dd0000;
+	height: 23px;
+	z-index: 1001;
+	position: relative;
+	width: 100%;
+	top: 0;
+	color: white;
+	padding: 5px 0 3px 0;
+}
+
+#header-contact-content {
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#j-paragraph{
+	text-align: justify;
+}
+
+#logo-web-negro {
+	width: 450px;
+	margin-left: 20%;
+}
+
+#logo-web-negro-menudown {
+	width: 450px;
+	margin-left: 5%;
+	margin-top: -4%;
+}
+
+#logo-web-negro-navbar{
+	width: 450px;
+	margin-left: 1%;
+	margin-top: 6%;
+	margin-bottom: 3%;
+}
+
+#menu {
+	color: #CCC;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#menu-container {
+	background: #000;
+	width: 100%;
+	height: 50px;
+	padding: 20px 0 20px 0;
+}
+
+#menu-container-fixed {
+	background: #000;
+	z-index: 100;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 15px 0 15px 0;
+	text-align: center;
+}
+
+#p-contact{
+	font-size: 12px;
+}
+
+#send {
+	width: 100%;
+	background: #dd0000;
+	color: white;
+	border: none;
+}
+
+#services {
+	margin-top: 8px;/*60px*/
+}
+
+#services-description {
+	margin-top: 30px;
+}
+
+#title {
+	height: 50px;
+	padding: 0;
+	background: #f7f7f7;
+}
+
+#title-hidrolavadora-fria{
+font-weight: bold;
+margin-bottom: -5px;
+font-size: 24px;
+}
+
+.active {
+	color: #FFF;
+}
+
+.carousel-title, .carousel-subtitle {
+	background: rgba(0, 0, 0, 0.6);
+	display: inline-block;
+	padding: 5px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+.centered-img {
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.cert-description {
+	font-weight: bold;
+}
+
+.cert-icon {
+	font-size: 40px;
+}
+
+.details {
+	background: #dd0000;
+	width: 100%;
+	border: none;
+	color: white;
+	height: 30px;
+}
+
+.details-movil {
+	background: #dd0000;
+	width: 100%;
+	border: none;
+	color: white;
+	height: 20px;
+}
+
+.details-movil-index {
+    background: #dd0000;
+    width: 30%;
+    border: none;
+    color: white;
+	height: 20px;
+}
+
+.division-header {
+	font-size: 30px;
+	color: white;
+	text-decoration: underline;
+	background: #dd0000;
+	padding: 10px;
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-align: center;
+}
+
+.division-header-hidrolavadoras-fria{
+	font-size: 25px;
+	color: white;
+	/*text-decoration:unset;*/
+	background: #dd0000;
+	padding: 10px;
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+/* Style The Dropdown Button */
+
+.dropbtn {
+	background-color: #000;
+	color: #CCC;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+	background-color: #FFF;
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content td {
+	width: 200px;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+	background-color: #111;
+}
+
+.footer-container {
+	padding: 50px;
+	color: #CCC;
+}
+
+.footer-heading {
+	font-size: 25pt;
+	color: white;
+	font-weight: bold;
+}
+
+.footer-icon {
+	color: #dd0000;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.footer-list {
+	list-style: none;
+	line-height: 4;
+}
+
+.img-responsive1 {
+  display: block;
+  max-width: 100%;
+  width: 100px;
+  height:110px;
+  padding-top: 25px;
+}
+
+.img-responsive1-hidro{
+	display: block;
+    max-width: 260%;
+    width: 138px;
+    height: 121px;
+    padding-top: 22px;
+    position: relative;
+    left: -31px;
+    top: -16px;
+}
+
+.img-responsive2 {
+	display: block;
+	max-width: 110%;
+	width: 90px;
+	height:125px;
+	padding-top: 25px;
+  }
+
+.img-responsive3 {
+	display: block;
+	max-width: 100%;
+
+	height:auto;
+	padding-top:80px;
+  }
+
+  .img-responsive3-hidro {
+	display: block;
+    max-width: 260%;
+    width: 132px;
+    height: 121px;
+    padding-top: 22px;
+    position: relative;
+    left: -31px;
+    top: 50px;
+  }
+
+  .img-responsive2index{
+    display: block;
+    max-width: 100%;
+    height: 150px;
+    padding-top: 60px;
+}
+
+.product {
+	border: 3px solid white;
+}
+
+.product-banner {
+	text-align: center;
+	background: #dd0000;
+	border-radius: 10px;
+	color: white;
+	height: 70px;
+}
+
+.product-body{
+	padding: 2px;
+	min-height: 300px;
+	height: 100%;
+}
+
+.product-body-movil{
+	padding: 2px;
+	min-height: 300px;
+	height: 100%;
+}
+
+.product-body-1 {
+	padding: 2px;
+	min-height: 243px;
+	height: 100%;
+}
+
+.product-body-2 {
+	padding: 2px;
+	min-height: 400px;
+	height: 100%;
+}
+
+.product-body-2-movil {
+	padding: 2px;
+	min-height: 400px;
+	height: 100%;
+}
+
+.product-body-5 {
+	padding: 2px;
+	min-height: 400px;
+	height: 100%;
+}
+
+.product-body-3 {
+	padding: 2px;
+	min-height: 480px;/*450px*/
+	height: 100%;
+}
+
+.product-body-4 {
+	padding: 2px;
+	min-height: 212px;
+	height: 100%;
+}
+
+.product-container {
+	padding: 5px;
+}
+
+.product-img {
+	max-height: 250px;
+}
+
+.product-img1 {
+	max-height: 150px;
+}
+
+.product:hover {
+	border: 3px solid #dd0000;
+}
+
+.product-link {
+	text-decoration: none;
+	transform: none;
+	color: black;
+}
+
+.product-link:hover {
+	color: black;
+}
+
+.product-title {
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.product-title-small {
+	font-size: 15px;
+}
+
+.prueba1{
+	position: relative;
+    left: -30px;
+    top: 22px;
+    min-width: 150%;
+    width: 90px;	
+}
+
+.social-footer {
+	color: white;
+	margin-top: 5px;
+	font-size: 12pt;
+}
+
+.social-footer-container {
+	background: red;
+	border-radius: 2px;
+	width: 25px;
+	height: 30px;
+	text-align: center;
+}
+
+
+.upper {
+	text-transform: uppercase;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	h4 {
+		font-size: 1em;
+	}
+	.product-body {
+		padding: 2px;
+		height: 100%;
+		min-height: 130px;
+	}
+	.product-body-movil {
+		padding: 2px;
+		height: 100%;
+		min-height: 95px;
+	}
+	.product-body-2 {
+		padding: 2px;
+		min-height: 150px;
+		height: 100%;
+	}
+	.product-body-2-movil {
+		padding: 2px;
+		height: 100%;
+		min-height: 110px;
+
+	}
+	.product-body-3 {
+		padding: 2px;
+		min-height: 355px; /*240px*/
+		height: 100%;
+	}
+	.product-body-5 {
+		padding: 2px;
+    	min-height: 100px;
+    	height: 100%;
+	}
+	.product-title, .product-title-small {
+		font-size: 1em;
+	}
+}
